@@ -3,15 +3,17 @@ class StringClass:
     def __init__(self):
         self.str1 = input("Enter String:- ")
 
-    def lengthstring(self):
+    def length_string(self):
         return len(self.str1)
 
-    def listcharacters(self, str2):
-        return list(str2)
+    def list_characters(self):
+        return list(self.str1)
+
+if __name__ == '__main__':
 
 
-strclass = StringClass()
-print(strclass.lengthstring())
-print(strclass.listcharacters(str2="hello123"))
+    strclass = StringClass()
+    print(strclass.length_string())
+    print(strclass.list_characters())
 
 
