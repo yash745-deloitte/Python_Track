@@ -1,7 +1,7 @@
 class StringClass:
 
     def __init__(self):
-        self.str1 = input("Enter String:- ")
+        self.str1 = input("Enter String :- ")
 
     def length_string(self):
         return len(self.str1)

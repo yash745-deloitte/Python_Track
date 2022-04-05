@@ -4,7 +4,7 @@ from Program1 import StringClass
 class PairsPossible(StringClass):
     def __init__(self):
         super().__init__()
-        self.string2 = input("Enter String for Pair: ")
+        self.string2 = input("Enter String for Pair : ")
         self.pair_obtained = []
 
     def possible_pairs(self):
