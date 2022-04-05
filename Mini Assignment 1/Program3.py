@@ -1,5 +1,6 @@
 from Program2 import PairsPossible
 
+
 class SearchCommonElements(PairsPossible):
     def __init__(self):
         super().__init__()

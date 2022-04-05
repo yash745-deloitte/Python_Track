@@ -1,5 +1,6 @@
 from Program1 import StringClass
 
+
 class PairsPossible(StringClass):
     def __init__(self):
         super().__init__()

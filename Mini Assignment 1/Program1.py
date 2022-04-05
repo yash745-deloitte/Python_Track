@@ -9,8 +9,8 @@ class StringClass:
     def list_characters(self):
         return list(self.str1)
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
 
     strclass = StringClass()
     print(strclass.length_string())
