@@ -8,8 +8,7 @@ class EqualSumPairs(SearchCommonElements):
     def count_sum(self):
         sum_map = {}
         self.possible_pairs()
-        print(self.print_pair())
-        self.possible_pairs()
+        self.print_pair()
         for ele in self.pair_obtained:
             sum = int(ele[0]) + int(ele[1])
             if sum in sum_map:
@@ -18,7 +17,7 @@ class EqualSumPairs(SearchCommonElements):
                 sum_map[sum] = 1
 
         for ele in sum_map:
-            if sum_map[ele] != 1:
+            if sum_map[ele] == 1:
                 self.sumList.append(ele)
 
         return len(self.sumList)
