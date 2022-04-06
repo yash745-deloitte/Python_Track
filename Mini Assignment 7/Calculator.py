@@ -23,7 +23,7 @@ while True:
                             else:
                                 print(a - b)
                                 break
-                        except Calculator:
+                        except ValueError:
                             print("Formula is invalid")
                             break
                     else:
