@@ -1,2 +1,6 @@
-z = lambda a, b, c, x: print(a * x ** 2 + b * x + c)
-z(2, 2, 2, 2)
+a = int(input("Enter a:- "))
+b = int(input("Enter b:- "))
+c = int(input("Enter c:- "))
+x = int(input("Enter x:- "))
+ans = lambda a, b, c, x: print(a * x ** 2 + b * x + c)
+ans(a, b, c, x)
