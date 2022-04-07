@@ -1,3 +1,6 @@
+from UserPage import user
+
+
 class login_Class:
     def __init__(self):
         self.adminID = "Admin"
@@ -12,4 +15,10 @@ class login_Class:
             if pswrd == self.adminPass:
                 admin.adminLogin()
             else:
-                print("Wrong Admin Password")
+                print("Wrong Admin Password !!")
+        else:
+            user.userLogin(user_id, pswrd)
+
+
+login = login_Class()
+
