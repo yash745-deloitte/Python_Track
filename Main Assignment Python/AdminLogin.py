@@ -7,13 +7,13 @@ class AdminLogin_Class:
         print("4.Logout ")
         ch = int(input("Enter: "))
         if ch == 1:
-                # addnew
+            # addnew
         elif ch == 2:
-                # edit
+            # edit
         elif ch == 3:
-                # delete
+             # delete
         elif ch == 4:
-                # logout
+             # logout
         else:
             print("Invalid Input !!")
 
